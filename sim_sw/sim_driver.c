@@ -27,6 +27,7 @@ int map(int x, int in_min, int in_max, int out_min, int out_max)
 void tone(int pin, int frequency){
     printf("Simulating starting PWM tone output on PWM out pin %d with frequency %d\n", pin, frequency);
 }
+
 void noTone(int pin){
     printf("Simulating stopping PWM tone output on PWM out pin %d\n", pin);
 }
